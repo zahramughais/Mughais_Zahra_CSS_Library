@@ -1,0 +1,72 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* button */
+.btn {
+    color: #00D1B2;
+    background-color: white;
+    padding: 0.5em 3.5em;
+    border-radius: 20px;
+    border:2px solid #00D1B2;
+    font-weight: bold;
+}
+/* row */
+.row{
+    display: flex;
+}
+/* column */
+.col {
+    width: 100%;
+    height: 3rem;
+    background-color: #65A3AA;
+    color: #fff;
+    margin: 0.5rem;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 3rem;
+}
+/* nav bar */
+.navbar {
+    display: flex;
+    background-color: #333;
+    color: white;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+}
+/* nav links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+/* card and card components */
+.card {
+    border: 3px solid #aaa;
+    margin-bottom: 2rem;
+}
+.card-title {
+    background-color: #222;
+    color: #aaa;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    padding-left:2rem;
+}
+.card-body {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.card-footer {
+    border-top: 3px solid #aaa;
+    padding: 1rem 2rem;
+    text-decoration: underline;
+}
